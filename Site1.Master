@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="_20170511_OdevMasterPage.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="default.css" type="text/css" rel="stylesheet" />
+   
+</head>
+<body>
+    <div id="header">
+		<div id="logo">
+			<h1><a href="#">Old Stairwell</a></h1>
+			<p>Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a></p>
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="#" accesskey="1" title="">Homepage</a></li>
+				<li><a href="#" accesskey="2" title="">Our Clients</a></li>
+				<li><a href="#" accesskey="3" title="">About Us</a></li>
+				<li><a href="#" accesskey="4" title="">Careers</a></li>
+				<li><a href="#" accesskey="5" title="">Contact Us</a></li>
+			</ul>
+		</div>
+	</div>
+	<aside style="background-color: black; height: 550px;">
+        <div style="margin-top: 100px; margin-left: 30px; ">
+
+           <div> <a href="Categories.aspx" style="font-size:20px; color:white; margin-top: 10px; float:left;">Categories</a> </div>
+           <div> <a href="Customers.aspx" style="font-size:20px; color:white; margin-top: 10px; float:left;">Customers</a></div> 
+           <div> <a href="Employees.aspx" style="font-size:20px; color:white; margin-top: 10px; float:left; width:150px;">Employees </a></div> 
+           <div><a href="Orders.aspx" style="font-size:20px; color:white; margin-top: 10px; float:left; width:150px;">Orders</a> </div> 
+            <div><a href="Products.aspx" style="font-size:20px; color:white; margin-top: 10px; float:left; width:150px;">Products</a> </div> 
+            <div><a href="Shippers.aspx" style="font-size:20px; color:white; margin-top: 10px; float:left; width:150px;">Shippers</a> </div>
+            <div><a href="Suppliers.aspx" style="font-size:20px; color:white; margin-top: 10px; float:left; width:150px;">Suppliers</a> </div>
+            
+        </div>
+	</aside>
+		
+
+
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+           
+
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+
+    	<div id="footer">
+		<p>&copy; Untitled. All rights reserved. Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>. Photos by <a href="http://fotogrph.com/">Fotogrph</a>.</p>
+	</div>
+</body>
+</html>
